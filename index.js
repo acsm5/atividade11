@@ -6,7 +6,6 @@ const port = 3000;
 
 dotenv.config();
 
-
 app.get("/", (req, res) => {       
   console.log("Rota GET/ solicitada");
   res.json({
